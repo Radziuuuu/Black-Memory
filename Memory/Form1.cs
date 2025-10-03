@@ -16,7 +16,10 @@ public partial class Form1 : Form
     public Form1()
     {
         InitializeComponent();
-        
+        System.Windows.Forms.Timer hideTimer = new System.Windows.Forms.Timer();
+        hideTimer.Interval = 1000;
+        hideTimer.Tick += HideTimer_Tick;
+
     }
 
     List<Image> images = new List<Image>();
@@ -25,7 +28,7 @@ public partial class Form1 : Form
 
     PictureBox firstClicked = null;
     PictureBox secondClicked = null;
-  
+    System.Windows.Forms.Timer hideTimer;
     private void LoadImages()
     {
         string path = Path.Combine(Application.StartupPath, "rsc");
@@ -47,6 +50,10 @@ public partial class Form1 : Form
 
     private void Form1_Load(object sender, EventArgs e)
     {
+        LoadImages();
+        PrepareGameImages();
+        AssignImages();
+
         timer1 = new();
         timer1.Interval = 1000;
         timer1.Tick += Tick;
@@ -90,7 +97,7 @@ public partial class Form1 : Form
 
     private void Pb_Click(object sender, EventArgs e)
     {
-        if (timer1.Enabled) 
+        if (hideTimer.Enabled) 
         {
             return;
         }
@@ -112,8 +119,19 @@ public partial class Form1 : Form
         }
         else
         {
-            timer1.Start();
+            hideTimer.Start();
         }
+    }
+
+    private void HideTimer_Tick(object sender, EventArgs e)
+    {
+        hideTimer.Stop();
+
+        if (firstClicked != null) firstClicked.Image = backImage;
+        if (secondClicked != null) secondClicked.Image = backImage;
+
+        firstClicked = null;
+        secondClicked = null;
     }
     private void CheckWin()
     {
