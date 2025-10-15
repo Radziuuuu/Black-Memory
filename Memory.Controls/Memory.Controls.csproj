@@ -1,0 +1,118 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Emojis\E264.png" />
+    <None Remove="Resources\Emojis\E265.png" />
+    <None Remove="Resources\Emojis\E266.png" />
+    <None Remove="Resources\Emojis\E267.png" />
+    <None Remove="Resources\Emojis\E268.png" />
+    <None Remove="Resources\Emojis\E269.png" />
+    <None Remove="Resources\Emojis\E280.png" />
+    <None Remove="Resources\Emojis\E281.png" />
+    <None Remove="Resources\Emojis\E282.png" />
+    <None Remove="Resources\Emojis\E283.png" />
+    <None Remove="Resources\Emojis\E300.png" />
+    <None Remove="Resources\Emojis\E301.png" />
+    <None Remove="Resources\Emojis\E302.png" />
+    <None Remove="Resources\Emojis\E303.png" />
+    <None Remove="Resources\Emojis\E305.png" />
+    <None Remove="Resources\Emojis\E306.png" />
+    <None Remove="Resources\Emojis\E307.png" />
+    <None Remove="Resources\Emojis\E308.png" />
+    <None Remove="Resources\Emojis\E309.png" />
+    <None Remove="Resources\Emojis\E312.png" />
+    <None Remove="Resources\Emojis\E313.png" />
+    <None Remove="Resources\Emojis\E314.png" />
+    <None Remove="Resources\Emojis\E315.png" />
+    <None Remove="Resources\Emojis\E316.png" />
+    <None Remove="Resources\Emojis\E318.png" />
+    <None Remove="Resources\Emojis\E319.png" />
+    <None Remove="Resources\Emojis\E320.png" />
+    <None Remove="Resources\Emojis\E321.png" />
+    <None Remove="Resources\Emojis\E322.png" />
+    <None Remove="Resources\Emojis\E324.png" />
+    <None Remove="Resources\Emojis\E325.png" />
+    <None Remove="Resources\Emojis\E326.png" />
+    <None Remove="Resources\Emojis\E327.png" />
+    <None Remove="Resources\Emojis\E328.png" />
+    <None Remove="Resources\Emojis\E329.png" />
+    <None Remove="Resources\Emojis\E340.png" />
+    <None Remove="Resources\Emojis\E341.png" />
+    <None Remove="Resources\Emojis\E342.png" />
+    <None Remove="Resources\Emojis\E343.png" />
+    <None Remove="Resources\Emojis\E344.png" />
+    <None Remove="Resources\Emojis\E345.png" />
+    <None Remove="Resources\Emojis\E346.png" />
+    <None Remove="Resources\Emojis\E347.png" />
+    <None Remove="Resources\Emojis\E348.png" />
+    <None Remove="Resources\Emojis\E380.png" />
+    <None Remove="Resources\Emojis\E381.png" />
+    <None Remove="Resources\Emojis\F000.png" />
+    <None Remove="Resources\Emojis\F77A.png" />
+    <None Remove="Resources\Emojis\F8FF.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Emojis\E264.png" />
+    <EmbeddedResource Include="Resources\Emojis\E265.png" />
+    <EmbeddedResource Include="Resources\Emojis\E266.png" />
+    <EmbeddedResource Include="Resources\Emojis\E267.png" />
+    <EmbeddedResource Include="Resources\Emojis\E268.png" />
+    <EmbeddedResource Include="Resources\Emojis\E269.png" />
+    <EmbeddedResource Include="Resources\Emojis\E280.png" />
+    <EmbeddedResource Include="Resources\Emojis\E281.png" />
+    <EmbeddedResource Include="Resources\Emojis\E282.png" />
+    <EmbeddedResource Include="Resources\Emojis\E283.png" />
+    <EmbeddedResource Include="Resources\Emojis\E300.png" />
+    <EmbeddedResource Include="Resources\Emojis\E301.png" />
+    <EmbeddedResource Include="Resources\Emojis\E302.png" />
+    <EmbeddedResource Include="Resources\Emojis\E303.png" />
+    <EmbeddedResource Include="Resources\Emojis\E305.png" />
+    <EmbeddedResource Include="Resources\Emojis\E306.png" />
+    <EmbeddedResource Include="Resources\Emojis\E307.png" />
+    <EmbeddedResource Include="Resources\Emojis\E308.png" />
+    <EmbeddedResource Include="Resources\Emojis\E309.png" />
+    <EmbeddedResource Include="Resources\Emojis\E312.png" />
+    <EmbeddedResource Include="Resources\Emojis\E313.png" />
+    <EmbeddedResource Include="Resources\Emojis\E314.png" />
+    <EmbeddedResource Include="Resources\Emojis\E315.png" />
+    <EmbeddedResource Include="Resources\Emojis\E316.png" />
+    <EmbeddedResource Include="Resources\Emojis\E318.png" />
+    <EmbeddedResource Include="Resources\Emojis\E319.png" />
+    <EmbeddedResource Include="Resources\Emojis\E320.png" />
+    <EmbeddedResource Include="Resources\Emojis\E321.png" />
+    <EmbeddedResource Include="Resources\Emojis\E322.png" />
+    <EmbeddedResource Include="Resources\Emojis\E324.png" />
+    <EmbeddedResource Include="Resources\Emojis\E325.png" />
+    <EmbeddedResource Include="Resources\Emojis\E326.png" />
+    <EmbeddedResource Include="Resources\Emojis\E327.png" />
+    <EmbeddedResource Include="Resources\Emojis\E328.png" />
+    <EmbeddedResource Include="Resources\Emojis\E329.png" />
+    <EmbeddedResource Include="Resources\Emojis\E340.png" />
+    <EmbeddedResource Include="Resources\Emojis\E341.png" />
+    <EmbeddedResource Include="Resources\Emojis\E342.png" />
+    <EmbeddedResource Include="Resources\Emojis\E343.png" />
+    <EmbeddedResource Include="Resources\Emojis\E344.png" />
+    <EmbeddedResource Include="Resources\Emojis\E345.png" />
+    <EmbeddedResource Include="Resources\Emojis\E346.png" />
+    <EmbeddedResource Include="Resources\Emojis\E347.png" />
+    <EmbeddedResource Include="Resources\Emojis\E348.png" />
+    <EmbeddedResource Include="Resources\Emojis\E380.png" />
+    <EmbeddedResource Include="Resources\Emojis\E381.png" />
+    <EmbeddedResource Include="Resources\Emojis\F000.png" />
+    <EmbeddedResource Include="Resources\Emojis\F77A.png" />
+    <EmbeddedResource Include="Resources\Emojis\F8FF.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EmojiOne" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

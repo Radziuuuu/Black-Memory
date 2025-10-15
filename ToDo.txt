@@ -1,0 +1,13 @@
+plansza o wymiarach 4x4 
+zawieraj¹ca 16 obrazków domyœlnie obróconych do góry nogami 
+8 par identycznych obrazków
+po klikniêciu obrazka:
+jeœli ¿aden inny nie jest odwrócony to odwraca go 
+jeœli jakiœ ju¿ jest odwrócony porównuje z nim
+jeœli s¹ takie same to dodaje graczowi punkty i usuwa obrazki z planszy
+jeœli s¹ ró¿ne to odwraca oba do góry nogami - zadbaj o opóŸnienie przed odwróceniem
+program posiada widoczny licznik czasu od uruchomienia lub restartu gry
+program posiada licznik punktów
+gra koñczy siê w momencie odkrycia wszystkich par
+po zakoñczeniu gry wyœwietla siê wynik punktowy i czas jaki up³yn¹³
+grê mo¿na zresetowaæ odpowiednim guzikiem
