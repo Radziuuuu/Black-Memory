@@ -3,6 +3,28 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Ignoruj ustawienia IDE JetBrains (.idea)
+.idea/
+
+# Ignoruj pliki tymczasowe systemowe
+*.tmp
+*.log
+*.bak
+
+# Ignoruj pliki kompilacji Visual Studio
+bin/
+obj/
+
+# Ignoruj ustawienia użytkownika Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignoruj pliki tymczasowe systemu Windows
+Thumbs.db
+Desktop.ini
+
 # User-specific files
 *.rsuser
 *.suo
