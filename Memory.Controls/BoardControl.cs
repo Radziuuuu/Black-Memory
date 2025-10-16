@@ -17,7 +17,7 @@ namespace Memory.Controls
 
         private void InitializeEmojis()
         {
-            Assembly assembly = Assembly.GetExecutingAssembly();
+            Assembly assembly = Assembly.GetExecutingAssembly(); // Zwraca Listę nazw obrazków
 
             emojis = new List<Image>();
             foreach (string name in assembly.GetManifestResourceNames())
@@ -27,7 +27,7 @@ namespace Memory.Controls
                     continue;
                 }
 
-                Image emoji = Bitmap.FromStream(assembly.GetManifestResourceStream(name));
+                Image emoji = Bitmap.FromStream(assembly.GetManifestResourceStream(name)); // Otwiera "strumień" / dostęp do pliku obrazka
                 emojis.Add(emoji);
             }
         }
@@ -41,7 +41,7 @@ namespace Memory.Controls
                 for (int row = 0; row < tiles.GetLength(1); row++)
                 {
                     tiles[row, column] = 
-                        (TileControl)tableLayoutPanel.GetControlFromPosition(column, row);
+                        (TileControl)tableLayoutPanel.GetControlFromPosition(column, row); // wypełnianie tablicy kontrolkami
                 }
             }
 

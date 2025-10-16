@@ -9,7 +9,7 @@ namespace Memory.Controls
             InitializeComponent();
         }
 
-        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)] // Atrybut
         public Image Image
         {
             get => pictureBox.Image;
