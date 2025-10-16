@@ -23,35 +23,33 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            boardControl1 = new Memory.Controls.BoardControl();
+            mainControl1 = new Memory.Controls.MainControl();
             SuspendLayout();
             // 
-            // boardControl1
+            // mainControl1
             // 
-            boardControl1.Dock = DockStyle.Fill;
-            boardControl1.Location = new Point(0, 0);
-            boardControl1.Name = "boardControl1";
-            boardControl1.Size = new Size(800, 450);
-            boardControl1.TabIndex = 0;
+            mainControl1.Location = new System.Drawing.Point(12, 12);
+            mainControl1.Name = "mainControl1";
+            mainControl1.Size = new System.Drawing.Size(776, 426);
+            mainControl1.TabIndex = 0;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(boardControl1);
-            Name = "MainForm";
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(800, 450);
+            Controls.Add(mainControl1);
             Text = "Memory.Gui";
             ResumeLayout(false);
         }
 
-        #endregion
+        private Memory.Controls.MainControl mainControl1;
 
-        private Controls.BoardControl boardControl1;
+        #endregion
     }
 }

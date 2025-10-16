@@ -8,6 +8,12 @@ namespace Memory.Controls
         {
             InitializeComponent();
         }
+        
+        private void InnerControl_Click(object sender, EventArgs e)
+        {
+            this.OnClick(e); // wywołuje Click TileControl
+        }
+
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)] // Atrybut
         public Image Image
